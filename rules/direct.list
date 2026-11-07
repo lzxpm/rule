@@ -3,6 +3,16 @@
 # 域名后缀匹配
 DOMAIN-SUFFIX,lzxpm.top
 
+# 保证 WireGuard 隧道网段走直连
+IP-CIDR,10.10.5.0/24,DIRECT
+
+# 本地
+IP-CIDR,192.168.0.0/24,DIRECT
+
+# 使 Tailscale 流量走直连
+IP-CIDR,100.64.0.0/10,DIRECT
+DOMAIN-SUFFIX,tailscale.com,DIRECT
+
 # pt相关
 DOMAIN-SUFFIX,pttime.org,国外
 DOMAIN-SUFFIX,pttime.fun,DIRECT
