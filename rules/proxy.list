@@ -26,5 +26,5 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 
-DOMAIN-SUFFIX,pttime.org,国外
-DOMAIN-SUFFIX,dian115.com,国外
+DOMAIN-SUFFIX,pttime.org
+DOMAIN-SUFFIX,dian115.com
